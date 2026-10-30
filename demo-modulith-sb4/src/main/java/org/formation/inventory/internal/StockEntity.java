@@ -1,4 +1,4 @@
-package org.formation.shop.inventory.internal;
+package org.formation.inventory.internal;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,9 +1,9 @@
-package org.formation.shop.catalog;
+package org.formation.catalog;
 
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.formation.shop.catalog.internal.CoffeeEntity;
-import org.formation.shop.catalog.internal.CoffeeRepository;
+import org.formation.catalog.internal.CoffeeEntity;
+import org.formation.catalog.internal.CoffeeRepository;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
